@@ -1,0 +1,161 @@
+  /* Author: Mekha
+     Date:18|12|2021   */
+
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+.first
+{ 
+	background-color: #333; 
+	color: #fff;
+	text-align: center;
+	padding: 100px;
+	font-size: 22px;
+}
+.first a
+{
+	border: 1px solid #00f;
+	border-radius: 7px;
+	padding: 14px;
+	color: #00f;
+	text-decoration: none;
+}
+.first h1
+{
+	margin-bottom: 25px;
+}
+.first p
+{
+	margin-bottom: 30px;
+}
+.first a
+{
+	margin-bottom: 20px;
+}
+.first a:hover
+{
+	background-color: #00f;
+	color: #fff;
+}
+.second
+{
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	padding: 100px;
+	font-size: 20px;
+}
+.second h1
+{
+	margin-bottom: 30px;
+}
+.second p
+{
+	margin-bottom: 30px;
+}
+.thir
+{
+	background-color: #333;
+	display: flex;
+	font-size: 20px;
+	text-align: justify;
+
+}
+.thir .thir1
+{
+	border: 2px solid #333;
+	background-color: #fff;
+	color: #000;
+	padding: 30px;
+	margin: 30px;
+	border-radius: 15px;
+	text-align: center;
+}
+.thir1 img
+{
+	border-radius: 7px;
+}
+.fourth
+{
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+	padding: 100px;
+	font-size: 20px;
+}
+.fourth h1
+{
+	margin-bottom: 30px;
+}
+.fourth p
+{
+	margin-bottom: 30px;
+}
+.fifth
+{
+	display: flex;
+	color: #000;
+	font-size: 19px;
+	text-align: center;
+	
+}
+.fifth1
+{
+	background-color: #0d6efd;
+	height: 60vh;
+}
+.fifth2
+{
+	background-color: #333;
+	height: 60vh;
+}
+.fifth h1
+{
+	margin-top: 150px;
+}
+.fifth p
+{
+	margin-bottom: 30px;
+}
+
+/*Media Query*/
+
+@media screen and (max-width: 1024px) {
+.thir
+{
+	display: block;
+}
+.thir .thir1
+{
+	padding: 10px;
+	margin: 10px;
+}
+.fourth
+{
+	padding: 20px;
+	font-size: 20px;
+}
+.second
+{
+	padding: 20px;
+	font-size: 20px;
+}
+.fifth
+{
+	display: block;
+}
+.fifth h1
+{
+	margin-top: 0px;
+	padding: 30px;
+}
+.fifth p
+{
+	margin-bottom: 0px;
+}
+}
+/*Media Query End*/
+
